@@ -1,6 +1,6 @@
 {
   "name": "is-geojson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sniff whether an object is geojson",
   "main": "index.js",
   "dependencies": {
