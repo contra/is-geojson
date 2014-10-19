@@ -1,0 +1,28 @@
+{
+  "name": "is-geojson",
+  "version": "1.0.0",
+  "description": "sniff whether an object is geojson",
+  "main": "index.js",
+  "dependencies": {
+    "tape": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mapbox/is-geojson.git"
+  },
+  "keywords": [
+    "geojson",
+    "sniff",
+    "filetype"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/is-geojson/issues"
+  },
+  "homepage": "https://github.com/mapbox/is-geojson"
+}
