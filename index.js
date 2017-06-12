@@ -1,12 +1,12 @@
 var types = [
     // geometries
-    'Polygon',
     'Point',
+    'Polygon',
+    'LineString',
     'MultiPoint',
-    'MultiLineString',
     'MultiPolygon',
+    'MultiLineString',
     'GeometryCollection',
-
     'Feature',
     'FeatureCollection']
     .reduce(function(memo, t) {
