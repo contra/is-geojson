@@ -15,7 +15,7 @@ var types = [
     }, {});
 
 module.exports = function(obj) {
-  if (typeof obj !== 'object') return false;
+  if (!obj || typeof obj !== 'object') return false;
   if (!obj.type) return false;
   if (!types[obj.type]) return false;
   return true;
