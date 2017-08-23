@@ -1,12 +1,12 @@
 var types = [
     // geometries
-    'Polygon',
     'Point',
+    'Polygon',
+    'LineString',
     'MultiPoint',
-    'MultiLineString',
     'MultiPolygon',
+    'MultiLineString',
     'GeometryCollection',
-
     'Feature',
     'FeatureCollection']
     .reduce(function(memo, t) {
@@ -15,7 +15,7 @@ var types = [
     }, {});
 
 module.exports = function(obj) {
-  if (typeof obj !== 'object') return false;
+  if (!obj || typeof obj !== 'object') return false;
   if (!obj.type) return false;
   if (!types[obj.type]) return false;
   return true;
